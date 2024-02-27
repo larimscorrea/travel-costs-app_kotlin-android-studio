@@ -2,12 +2,12 @@
     <string name="app_name">travel-costs-app_kotlin</string>
     <string name="textHeader">Application for celphone and cost of travels</string>
     <string name="widthDistance">Distance</string>
-    <string name="totalKm">Km total</string>
+    <string name="text_TotalKm">Km total</string>
     <string name="editPrice">Price</string>
     <string name="textPriceLitter">Price for Litter</string>
     <string name="editAutonomy">Autonomy</string>
     <string name="textKms">Km for Litter</string>
     <string name="textAms">YOUR COST TOTAL WILL BE: </string>
-    <string name="textlabel">U$ 0</string>
+    <string name="labelResult">U$ 0</string>
     <string name="ButtonCalculate">Calculate</string>
 </resources>

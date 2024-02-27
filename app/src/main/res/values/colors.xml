@@ -4,6 +4,6 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFF</color>
     <color name="Red">#EF2011</color>
-    <color name="red">#0019FA</color>
-    <color name="teal_700">#4BDCAB</color>
+    <color name="Blue">#0019FA</color>
+    <color name="LightGreen">#4BDCAB</color>
 </resources>

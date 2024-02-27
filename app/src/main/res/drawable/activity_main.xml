@@ -8,8 +8,7 @@
     android:orientation="vertical">
 
     <TextView
-        android:id="@+Id/text/Header"
-
+        android:id="@+id/text_Header"
         android:layout_gravity="center"
         android:layout_marginTop="2dp"
         android:gravity="center"
@@ -17,10 +16,53 @@
         android:textColor="@color/Red"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:padding="32dp"
-        android:text="Testando aplicação, hello world"
-        app:layout_constraintButton_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-    </LinearLayout>
+        android:padding="32dp" />
+
+    <EditText
+        android:id="@+id/editDistance"
+        android:layout_marginTop="32dp"
+        android:hint="@string/widthDistance"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/totalKm"
+        android:text="@string/text_TotalKm"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:layout_marginTop="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/editPrice"
+        android:layout_marginTop="36dp"
+        android:hint="@string/editPrice"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/textPriceLiter"
+        android:text="@string/textPriceLitter"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="16dp"
+        android:layout_marginTop="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/buttonCalculate"
+        android:text="@string/ButtonCalculate"
+        android:layout_width="match_parent"
+        android:padding="16dp"
+        android:textAllCaps="true"
+        android:backgroundTint="@color/LightGreen"
+        android:textSize="20sp"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
